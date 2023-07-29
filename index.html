@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Market Data</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button id="gridViewBtn">Grid View</button>
+            <button id="listViewBtn" class="active">List View</button>
+        </div>
+        <div class="cryptocurrencies" id="cryptocurrenciesGrid"></div>
+        <table class="cryptocurrencies" id="cryptocurrenciesList">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Market Cap</th>
+                    <th>24h Change</th>
+                    <th>Total Volume</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
