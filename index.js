@@ -63,8 +63,6 @@ async function initializeApp() {
     renderGridView(data);
     renderListView(data);
     handleViewToggle();
-    document.getElementById("cryptocurrenciesGrid").style.display = "none";
-        document.getElementById("cryptocurrenciesList").style.display = "table";
 }
 
 initializeApp();
