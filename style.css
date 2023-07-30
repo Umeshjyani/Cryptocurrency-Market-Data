@@ -17,6 +17,9 @@ body {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+#cryptocurrenciesList{
+    display: none;
+}
 
 button {
     padding: 8px 16px;
